@@ -2,10 +2,11 @@
 WOT PowerPoint
 =========
 Impress your spouse, friends, family, and presentation audiences.  
-Use W3C Web Of Things standard to control your PowerPoint presentation. 
-https://www.w3.org/WoT/WG/
 
 #### You are awesome!
+
+Use W3C Web Of Things standard to control your PowerPoint presentation. 
+https://www.w3.org/WoT/WG/
 
 Usage
 -----
