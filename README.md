@@ -3,11 +3,11 @@ WOT PowerPoint
 =========
 Impress your spouse, friends, family, and presentation audiences.  
 
-#### Watch Video
-<div align="center">
-<a href='http://www.youtube.com/watch?feature=player_embedded&v=MiDFFrUtyWY'>
-<img src='http://img.youtube.com/vi/MiDFFrUtyWY/0.jpg' 
-alt="IMAGE ALT TEXT HERE" width="360" height="270" border="10" />
+<div align="center" markdown="1">
+
+<a href='http://www.youtube.com/watch?feature=player_embedded&v=MiDFFrUtyWY' markdown="1">
+<h2>Click to for HQ</h2>
+<img src="./public/images/wot_ppt.gif" alt="IMAGE ALT TEXT HERE" width="360" height="270" border="10" />
 </a>
 </div>
 
