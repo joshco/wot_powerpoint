@@ -3,6 +3,14 @@ WOT PowerPoint
 =========
 Impress your spouse, friends, family, and presentation audiences.  
 
+#### Watch Video
+<div align="center">
+<a href='http://www.youtube.com/watch?feature=player_embedded&v=MiDFFrUtyWY'>
+<img src='http://img.youtube.com/vi/MiDFFrUtyWY/0.jpg' 
+alt="IMAGE ALT TEXT HERE" width="360" height="270" border="10" />
+</a>
+</div>
+
 #### You are awesome!
 
 Use W3C Web Of Things standard to control your PowerPoint presentation. 
