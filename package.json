@@ -20,6 +20,7 @@
     "http-proxy": "^1.18.0",
     "morgan": "~1.9.1",
     "ngrok": "^3.2.7",
+    "qrcode": "^1.4.4",
     "request": "^2.88.2",
     "slideshow": "git+https://github.com/joshco/slideshow.git"
   }

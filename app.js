@@ -6,7 +6,7 @@ let ngrok=require('ngrok');
 let ppt = require('./ppt-obj.js');
 let slideshow = ppt.slideshow;
 var path = require('path');
-
+var QRcode = require('qrcode');
 var express = require('express');
 var exphbs  = require('express-handlebars');
 
@@ -50,6 +50,9 @@ getNgrok().then((url)=>{
             // Delay to make sure it is the last thing printed to the console.
             console.log("Make sure PowerPoint is open with your preso loaded!");
             console.log(`Open browser to Ngrok url: \n${httpUrl}`);
+            QRcode.toString(httpUrl, (err,string) =>{
+                console.log(string);
+            })
         },2000)
 
     });

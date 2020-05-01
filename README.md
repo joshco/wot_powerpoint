@@ -40,27 +40,11 @@ ExposedThing 'WOT' setting action Handler for 'stop'
 ExposedThing 'WOT' setting action Handler for 'start'
 Make sure PowerPoint is open with your preso loaded!
 Open browser to Ngrok url:
-http://76aaaaaaa.ngrok.io
-                                     
-    █▀▀▀▀▀█  █ ▀▄█▄▄▀▀█▀█ █▀▀▀▀▀█    
-    █ ███ █ █▄█▄█▄██▄▄▀▀▄ █ ███ █    
-    █ ▀▀▀ █ █▀   ▀ ▄▀▄█▀█ █ ▀▀▀ █    
-    ▀▀▀▀▀▀▀ █▄▀▄█ █ ▀ ▀▄█ ▀▀▀▀▀▀▀    
-    ▀▄███▀▀ ▄  ▀▄█▀▀██▄█▄ ███▀▀ ▄    
-    █▄█ ▄▀▀▀▀▄▄▀█▀▀██▀ ▄    ▀▄ ▄     
-    █▀█▄▄▄▀▀▄▀ ▄█▀█▀▄███▄▄▄▄▄▀▀ ▄    
-    ▄▀ ▀▄ ▀▄█▀  ▄ ▀▀█▀ ▄██▄▄█▀▀▄     
-    █▄█  ▀▀█ ▀█▄▀▄ ▀█▀ █ █▄█▄▀█ ▄    
-    █ ▀▀▀█▀█▄▀██▀█▀▀█▀  █▄█▀▀ ▀▄     
-    ▀ ▀▀ ▀▀ █▀██▀ ▀ ▄█▄▀█▀▀▀█▄███    
-    █▀▀▀▀▀█ ▄   █ ▄█ ▀ ██ ▀ █▀▀▄     
-    █ ███ █ █  █▀ ▄▀█▀ ▄█▀▀▀▀▄███    
-    █ ▀▀▀ █ ▀█ █▄ ▄▀█ ▄▀██▀█▀█▀█     
-    ▀▀▀▀▀▀▀ ▀ ▀ ▀   ▀  ▀  ▀▀▀ ▀      
-                                     
-                                     
+http://76aaaaaaa.ngrok.io            
 ```
 ![ddd](public/images/wot_ppt.png)
+> You will see an ASCII QRCode to your ngrok URL.  
+> This one goes to the github repo
 
 ##### QRCode
 
