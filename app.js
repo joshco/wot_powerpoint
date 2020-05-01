@@ -28,26 +28,14 @@ app.get('/', function (req, res, next) {
     });
 });
 
-var proxy = require('http-proxy').createProxyServer({
-    //host: 'http://your_blog.com',
-    // port: 80
-});
+var proxy = require('http-proxy').createProxyServer({});
+
 app.use('/WOT', function(req, res, next) {
     proxy.web(req, res, {
         target: 'http://localhost:8081/WOT'
     }, next);
 });
 
-
-let pptfilename = 'sample.pptx';
-//
-// slideshow.boot()
-//     .then(function () { slideshow.open(pptfilename) })
-//
-// const http = require('http')
-// const port = 3010;
-
-//process.env.WOT_URL_BASE='http://wot.yoga.joshco.me:8081';
 
 var wotServer = require('./wot-server');
 
