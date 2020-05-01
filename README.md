@@ -11,7 +11,7 @@ https://www.w3.org/WoT/WG/
 Usage
 -----
 
-#### Starting the Server
+### Starting the Server
 
 Clone the repository
 
@@ -25,33 +25,28 @@ Run
 
 `npm start`
 
-#### Open a PowerPoint Presentation
+### Open a PowerPoint Presentation
 Open PowerPoint and load your presentation or the sample.
 There is a sample in the repository to play with.
 
 `sample.pptx`
 
-#### Using the client
-When the server runs, it will display an ngrok URL in text AND an ASCII QR code. Note that.
+### Using the client
+When the server runs, it will display a URL and QRCode to your auto-made ngrok connection.
 
-```
-ExposedThing 'WOT' setting action Handler for 'prev'
-ExposedThing 'WOT' setting action Handler for 'stop'
-ExposedThing 'WOT' setting action Handler for 'start'
-Make sure PowerPoint is open with your preso loaded!
-Open browser to Ngrok url:
-http://76aaaaaaa.ngrok.io            
-```
-![QR Example](public/images/wot_ppt.png)
-> You will see an ASCII QRCode to your ngrok URL.  
-> This one goes to the github repo
+<div markdown="1" align="center">
 
-##### QRCode
+![npm start](public/images/node_start_output.png)
+> This code goes to this repo, yours will go to your server.  
+
+</div>
+
+#### QRCode
 
 Use your phone to scan the QRCode output in the terminal.  
 > on iOS, the default camera app will let you scan QRCodes.  A notification will drop down from the top, asking if you want to browse the URL encoded.
 
-##### Manual
+#### Manual
 
 Open your browser to the ngrok URL the server printed.  It will look something like:
  
@@ -59,10 +54,11 @@ Open your browser to the ngrok URL the server printed.  It will look something l
 
 When you see the browserified node-wot, click __Consume__
 
-#### Controlling your presentation
+### Controlling your presentation
 If your powerpoint is running, you should now see:
 * A status box on the left, showing your presentation state
 * Buttons on the right, for start/stop/prev/next/first/last, etc
+* A log pane is also present, which shows console.log output from the code. 
 
 The interface works on mobile!
 
