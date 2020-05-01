@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PPTWOT</title>
+    <!-- Foundation CSS framework -->
+
+    <!-- Font Awesome icons -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
+    <script src='https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js'></script>
+    <!-- defer to not block rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/@json-editor/json-editor@1.3.5/dist/jsoneditor.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/@json-editor/json-editor@latest/dist/jsoneditor.min.js"></script>-->
+    <!-- local vs cdn dependency -->
+    <!-- <script src="../../packages/browser-bundle/dist/wot-bundle.min.js" defer></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@node-wot/browser-bundle@latest/dist/wot-bundle.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.53.0/codemirror.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.53.0/codemirror.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.53.0/theme/cobalt.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" type="text/css" rel="stylesheet"></script>
+    <script src="index.js" defer></script>
+
+    <script>
+        // Set the default CSS theme and icon library globally
+        $(document).ready(function () {
+
+            JSONEditor.defaults.options.theme = 'bootstrap3';
+            JSONEditor.defaults.iconlib = 'fontawesome4';
+            createLog();
+
+            var wotUrl;
+            // if (window.location.hostname.indexOf('joshco.org') >= 0) {
+            //     wotUrl = "http://thingpatrol.dev.joshco.org:8090/WOT"
+            // } else {
+            //     wotUrl = "http://wot.yoga.joshco.me:8081/WOT"
+            // }
+            wotUrl="{{wot_url}}";
+            $("#td_addr").val(wotUrl);
+
+        })
+    </script>
+    <style>
+        div.no-padding {
+            padding-left: 0px;
+            padding-right: 0px;
+
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+    <div id="topbar" class="row">
+        <div class="col-md-12">
+            <h4>Browsified node-wot</h4>
+            <div class="row">
+                <div class="col-md-10">
+                    <input id="td_addr" type="url" value="" class="form-control">
+                </div>
+
+                <div class="col-md-2">
+                    <button id="fetch" class="btn btn-primary btn-block" type="button">Consume</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="interactions" class="row" style="display: none;">
+        <div class="col-md-4 col-xs-5">
+
+            <div id="results_holder"></div>
+            <h4>Properties</h4>
+            <ul id="properties" class="list-group"></ul>
+
+        </div>
+
+        <div class="col-md-4 col-xs-7">
+
+            <h4>Actions</h4>
+            <ul id="actions" class="side-nav list-group"></ul>
+
+        </div>
+
+        <div class="col-md-4 col-xs-12">
+            <h4>Log</h4>
+            <textarea id="uilogger"></textarea>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-offset-medium-3 col-md-6">
+            <div id="editor_holder"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
