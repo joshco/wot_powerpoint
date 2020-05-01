@@ -4,7 +4,9 @@ WOT PowerPoint
 Impress your spouse, friends, family, and presentation audiences.  
 
 <div align="center">
-<a href='http://www.youtube.com/watch?feature=player_embedded&v=MiDFFrUtyWY'><h4>Click to for HQ</h4> <img src="./public/images/wot_ppt.gif" alt="IMAGE ALT TEXT HERE" width="360" height="270" border="10" /></a>
+ <img src="public/images/wot_ppt.gif" alt="IMAGE ALT TEXT HERE" width="360" height="270" border="10" />
+ 
+[Click to for HQ](http://www.youtube.com/watch?feature=player_embedded&v=MiDFFrUtyWY) 
 </div>
 
 #### You are awesome!
