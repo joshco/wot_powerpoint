@@ -42,7 +42,7 @@ Make sure PowerPoint is open with your preso loaded!
 Open browser to Ngrok url:
 http://76aaaaaaa.ngrok.io            
 ```
-![ddd](public/images/wot_ppt.png)
+![QR Example](public/images/wot_ppt.png)
 > You will see an ASCII QRCode to your ngrok URL.  
 > This one goes to the github repo
 
@@ -50,7 +50,6 @@ http://76aaaaaaa.ngrok.io
 
 Use your phone to scan the QRCode output in the terminal.  
 > on iOS, the default camera app will let you scan QRCodes.  A notification will drop down from the top, asking if you want to browse the URL encoded.
-
 
 ##### Manual
 
@@ -66,6 +65,11 @@ If your powerpoint is running, you should now see:
 * Buttons on the right, for start/stop/prev/next/first/last, etc
 
 The interface works on mobile!
+
+<div markdown="1" align="center">
+
+![Mobile Example](public/images/mobile_example.png)
+</div>
 
 
 License
