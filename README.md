@@ -3,14 +3,8 @@ WOT PowerPoint
 =========
 Impress your spouse, friends, family, and presentation audiences.  
 
-<div align="center" markdown="1">
-
-<a href='http://www.youtube.com/watch?feature=player_embedded&v=MiDFFrUtyWY' markdown="1">
-
-#### Click to for HQ
-
-<img src="./public/images/wot_ppt.gif" alt="IMAGE ALT TEXT HERE" width="360" height="270" border="10" />
-</a>
+<div align="center">
+<a href='http://www.youtube.com/watch?feature=player_embedded&v=MiDFFrUtyWY'><h4>Click to for HQ</h4> <img src="./public/images/wot_ppt.gif" alt="IMAGE ALT TEXT HERE" width="360" height="270" border="10" /></a>
 </div>
 
 #### You are awesome!
