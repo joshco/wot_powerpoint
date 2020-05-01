@@ -1,13 +1,18 @@
 
-WOT PPT
+WOT PowerPoint
 =========
-Use W3C Web Of Things standard to control your PowerPoint presentation!
+Impress your spouse, friends, family, and presentation audiences.  
+Use W3C Web Of Things standard to control your PowerPoint presentation. 
+https://www.w3.org/WoT/WG/
+
+#### You are awesome!
 
 Usage
 -----
 
 Clone the repository
-``
+
+`git clone https://github.com/joshco/wot_powerpoint.git`
 
 Install packages
 
@@ -35,6 +40,14 @@ http://76aaaaaaa.ngrok.io
 Open your browser to the ngrok URL the server printed.  It will look something like:
  
 `http://76aaaaaaa.ngrok.io`
+
+When you see the browserified node-wot, click __Consume__
+
+If your powerpoint is running, you should now see:
+* a status box on the left, showing your presentation state
+* Buttons on the right, for start/stop/prev/next/first/last, etc
+
+The interface works on mobile!
 
 
 License
