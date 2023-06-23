@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@node-wot/binding-http": "file:./mypackages/@node-wot/binding-http",
-    "@node-wot/cli": "^0.7.0-SNAPSHOT.6",
+    "@node-wot/cli": "^0.7.8",
     "@node-wot/core": "^0.7.0-SNAPSHOT.6",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
